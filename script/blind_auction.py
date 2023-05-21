@@ -1,17 +1,20 @@
 import time
+import os
 
 dictionary = {}
 winner = ''
 the_max = 0
-print('welcome to the blind auction program')
 time.sleep(1)
 is_next = True
 while is_next:
+    os.system('clear')
+    print('welcome to the blind auction program')
     name = input("what's your name? : ")
     bid = int(input(f"what's your bid {name.lower()} : $ "))
     dictionary[name] = bid
     is_bidder = input("is there another bidder?\nEnter 'y' for yes and 'n' for no: ")
     if is_bidder.lower() in ['n', 'no']:
+        os.system('clear')
         is_next = False
 for i in dictionary:
     if dictionary[i] > the_max:
