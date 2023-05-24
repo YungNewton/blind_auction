@@ -23,4 +23,4 @@ for i in dictionary:
 time.sleep(1)
 print('___________________________________')
 print()
-print(f"The winner of the Auction was {winner} with a bid of {the_max}.")
+print(f"The winner of the Auction was {winner} with a bid of {the_max}.!")
