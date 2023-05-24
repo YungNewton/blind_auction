@@ -7,7 +7,7 @@ the_max = 0
 time.sleep(1)
 is_next = True
 while is_next:
-    os.system('clea')
+    os.system('clear')
     print('welcome to the blind auction program')
     name = input("what's your name? : ")
     bid = int(input(f"what's your bid {name.lower()} : $ "))
