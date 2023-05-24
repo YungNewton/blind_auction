@@ -21,6 +21,6 @@ for i in dictionary:
         the_max = dictionary[i]
         winner = i
 time.sleep(1)
-print('____________________________________')
+print('___________________________________')
 print()
 print(f"The winner of the Auction was {winner} with a bid of {the_max}!")
